@@ -31,6 +31,13 @@ implemented from scratch in NumPy.
 The training loss keeps decreasing while the validation loss flattens out
 around epoch 7 — a clear sign of mild overfitting on this small data subset.
 
+### Training Curves
+
+![Train vs Validation Loss](train_val_loss.png)
+
+### Learned Word Embeddings (PCA, 2D projection)
+
+![Word Embeddings PCA](word_embeddings_pca.png)
 ### Example Translations
 
 | English (input) | German (model output) | German (reference) |
